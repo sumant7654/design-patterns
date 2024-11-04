@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; Chain of Responsibility Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/creational/BuilderDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Creational -&gt; Builder Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/DecoratorDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
   "keyToString": {
     "Application.BuilderDesignPatternTest.executor": "Run",
     "Application.ChainOfResponsibilityTest.executor": "Run",
+    "Application.DecoratorDesignPatternTest.executor": "Run",
     "Application.FactoryDesignPatternTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonDesignPattern.executor": "Debug",
@@ -67,7 +68,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BuilderDesignPatternTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.sumantakumar.designpatterns.structural" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DecoratorDesignPatternTest">
     <configuration name="BuilderDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.BuilderDesignPatternTest" />
       <module name="Design Patterns" />
@@ -94,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.FactoryDesignPatternTest" />
+    <configuration name="DecoratorDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.DecoratorDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.creational.*" />
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.SingletonDesignPattern" />
+    <configuration name="FactoryDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.FactoryDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorDesignPatternTest" />
         <item itemvalue="Application.BuilderDesignPatternTest" />
         <item itemvalue="Application.ChainOfResponsibilityTest" />
         <item itemvalue="Application.FactoryDesignPatternTest" />
         <item itemvalue="Application.SingletonDesignPatternTest" />
-        <item itemvalue="Application.SingletonDesignPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +172,8 @@
       <workItem from="1730513144254" duration="2103000" />
       <workItem from="1730527825471" duration="1350000" />
       <workItem from="1730610988612" duration="1408000" />
-      <workItem from="1730658092512" duration="1500000" />
+      <workItem from="1730658092512" duration="1917000" />
+      <workItem from="1730681881116" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -192,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730612253725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creational -&gt; Builder Design Pattern">
+      <option name="closed" value="true" />
+      <created>1730659842497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730659842497</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +217,8 @@
     <MESSAGE value="Creational -&gt; Singleton Design Pattern" />
     <MESSAGE value="Creational -&gt; Factory Design Pattern" />
     <MESSAGE value="Behavioral -&gt; Chain of Responsibility Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; Chain of Responsibility Design Pattern" />
+    <MESSAGE value="Creational -&gt; Builder Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creational -&gt; Builder Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
