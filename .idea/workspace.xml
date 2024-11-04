@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Structural -&gt; Decorator Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/AdapterDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Structural -&gt; Adapter Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/IteratorDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Application.ChainOfResponsibilityTest.executor": "Run",
     "Application.DecoratorDesignPatternTest.executor": "Run",
     "Application.FactoryDesignPatternTest.executor": "Run",
+    "Application.IteratorDesignPatternTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonDesignPattern.executor": "Debug",
     "Application.SingletonDesignPatternTest.executor": "Debug",
@@ -74,7 +75,7 @@
       <recent name="dev.sumantakumar.designpatterns.structural" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterDesignPatternTest">
+  <component name="RunManager" selected="Application.IteratorDesignPatternTest">
     <configuration name="AdapterDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.AdapterDesignPatternTest" />
       <module name="Design Patterns" />
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.FactoryDesignPatternTest" />
+    <configuration name="IteratorDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.IteratorDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.creational.*" />
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDesignPatternTest" />
         <item itemvalue="Application.AdapterDesignPatternTest" />
         <item itemvalue="Application.DecoratorDesignPatternTest" />
         <item itemvalue="Application.BuilderDesignPatternTest" />
         <item itemvalue="Application.ChainOfResponsibilityTest" />
-        <item itemvalue="Application.FactoryDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,7 @@
       <workItem from="1730527825471" duration="1350000" />
       <workItem from="1730610988612" duration="1408000" />
       <workItem from="1730658092512" duration="1917000" />
-      <workItem from="1730681881116" duration="3956000" />
+      <workItem from="1730681881116" duration="6308000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -216,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730684269536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Structural -&gt; Adapter Design Pattern">
+      <option name="closed" value="true" />
+      <created>1730690799057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730690799057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +237,8 @@
     <MESSAGE value="Behavioral -&gt; Chain of Responsibility Design Pattern" />
     <MESSAGE value="Creational -&gt; Builder Design Pattern" />
     <MESSAGE value="Structural -&gt; Decorator Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structural -&gt; Decorator Design Pattern" />
+    <MESSAGE value="Structural -&gt; Adapter Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural -&gt; Adapter Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/creational/SingletonDesignPatternTest.java</url>
           <line>62</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/IteratorDesignPatternTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
