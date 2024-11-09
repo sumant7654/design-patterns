@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; Observer Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/StrategyDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; Strategy Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/TemplateMethodDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +57,11 @@
     "Application.IteratorDesignPatternTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverDesignPatternTest.executor": "Run",
+    "Application.PaymentMethodDesignPatternTest.executor": "Run",
     "Application.SingletonDesignPattern.executor": "Debug",
     "Application.SingletonDesignPatternTest.executor": "Debug",
     "Application.StrategyDesignPatternTest.executor": "Run",
+    "Application.TemplateMethodDesignPatternTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -77,33 +79,7 @@
       <recent name="dev.sumantakumar.designpatterns.structural" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrategyDesignPatternTest">
-    <configuration name="AdapterDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.AdapterDesignPatternTest" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecoratorDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.DecoratorDesignPatternTest" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TemplateMethodDesignPatternTest">
     <configuration name="IteratorDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.IteratorDesignPatternTest" />
       <module name="Design Patterns" />
@@ -130,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMethodDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.PaymentMethodDesignPatternTest" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.StrategyDesignPatternTest" />
       <module name="Design Patterns" />
@@ -143,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateMethodDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.TemplateMethodDesignPatternTest" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateMethodDesignPatternTest" />
+        <item itemvalue="Application.PaymentMethodDesignPatternTest" />
         <item itemvalue="Application.StrategyDesignPatternTest" />
         <item itemvalue="Application.ObserverDesignPatternTest" />
         <item itemvalue="Application.IteratorDesignPatternTest" />
-        <item itemvalue="Application.AdapterDesignPatternTest" />
-        <item itemvalue="Application.DecoratorDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,7 @@
       <workItem from="1730658092512" duration="1917000" />
       <workItem from="1730681881116" duration="7190000" />
       <workItem from="1731065049776" duration="1648000" />
-      <workItem from="1731131830805" duration="5111000" />
+      <workItem from="1731131830805" duration="7642000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -245,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731133256806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Behavioral -&gt; Strategy Design Pattern">
+      <option name="closed" value="true" />
+      <created>1731141676211</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731141676211</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +270,8 @@
     <MESSAGE value="Structural -&gt; Adapter Design Pattern" />
     <MESSAGE value="Behavioral -&gt; Iterator Design Pattern" />
     <MESSAGE value="Behavioral -&gt; Observer Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; Observer Design Pattern" />
+    <MESSAGE value="Behavioral -&gt; Strategy Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; Strategy Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
