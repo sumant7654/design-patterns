@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Structural -&gt; Proxy Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/BridgeDesignPatternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Structural -&gt; Bridge Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/StateDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -30,12 +30,12 @@
     &quot;assignee&quot;: &quot;sumant7654&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sumant7654/design-patterns.git&quot;,
-    &quot;accountId&quot;: &quot;9fb34dc7-27c4-4382-b90c-227f2b0e1a9b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sumant7654/design-patterns.git",
+    "accountId": "b24c58f9-c8e5-4ea2-b583-87561ba56e0c"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -67,6 +67,7 @@
     "Application.ProxyDesignPatternTest.executor": "Run",
     "Application.SingletonDesignPattern.executor": "Debug",
     "Application.SingletonDesignPatternTest.executor": "Debug",
+    "Application.StateDesignPatternTest.executor": "Run",
     "Application.StrategyDesignPatternTest.executor": "Run",
     "Application.TemplateMethodDesignPatternTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,20 +93,7 @@
       <recent name="dev.sumantakumar.designpatterns.structural" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BridgeDesignPatternTest">
-    <configuration name="AbstractFactoryDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.creational.AbstractFactoryDesignPatternTest" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.creational.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StateDesignPatternTest">
     <configuration name="BridgeDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.BridgeDesignPatternTest" />
       <module name="Design Patterns" />
@@ -158,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StateDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.StateDesignPatternTest" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StateDesignPatternTest" />
         <item itemvalue="Application.BridgeDesignPatternTest" />
         <item itemvalue="Application.MementoDesignPatternTest" />
         <item itemvalue="Application.ProxyDesignPatternTest" />
         <item itemvalue="Application.FacadeDesignPatternTest" />
-        <item itemvalue="Application.AbstractFactoryDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,8 @@
       <workItem from="1733861429630" duration="4428000" />
       <workItem from="1733950656414" duration="2839000" />
       <workItem from="1734272539711" duration="6231000" />
-      <workItem from="1734871295948" duration="2559000" />
+      <workItem from="1734871295948" duration="2860000" />
+      <workItem from="1734892273324" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -305,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734274269391</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Structural -&gt; Bridge Design Pattern">
+      <option name="closed" value="true" />
+      <created>1734874285912</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734874285912</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +335,8 @@
     <MESSAGE value="Creational -&gt; Abstract Factory Design Pattern" />
     <MESSAGE value="Structural -&gt; Facade Design Pattern" />
     <MESSAGE value="Structural -&gt; Proxy Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structural -&gt; Proxy Design Pattern" />
+    <MESSAGE value="Structural -&gt; Bridge Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural -&gt; Bridge Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
