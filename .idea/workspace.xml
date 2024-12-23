@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; Command Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/CompositeDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Structural -&gt; Composite Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/FlyweightDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <recent name="dev.sumantakumar.designpatterns.structural" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositeDesignPatternTest">
+  <component name="RunManager" selected="Application.FlyweightDesignPatternTest">
     <configuration name="BridgeDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.BridgeDesignPatternTest" />
       <module name="Design Patterns" />
@@ -135,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.MementoDesignPatternTest" />
+    <configuration name="FlyweightDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.FlyweightDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlyweightDesignPatternTest" />
         <item itemvalue="Application.CompositeDesignPatternTest" />
         <item itemvalue="Application.CommandDesignPatternTest" />
         <item itemvalue="Application.StateDesignPatternTest" />
         <item itemvalue="Application.BridgeDesignPatternTest" />
-        <item itemvalue="Application.MementoDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +204,7 @@
       <workItem from="1734272539711" duration="6231000" />
       <workItem from="1734871295948" duration="2860000" />
       <workItem from="1734892273324" duration="3899000" />
-      <workItem from="1734970934557" duration="3544000" />
+      <workItem from="1734970934557" duration="5676000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -334,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734972054502</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Structural -&gt; Composite Design Pattern">
+      <option name="closed" value="true" />
+      <created>1734979075124</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734979075124</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +365,8 @@
     <MESSAGE value="Structural -&gt; Bridge Design Pattern" />
     <MESSAGE value="Behavioral -&gt; State Design Pattern" />
     <MESSAGE value="Behavioral -&gt; Command Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; Command Design Pattern" />
+    <MESSAGE value="Structural -&gt; Composite Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural -&gt; Composite Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
