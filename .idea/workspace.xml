@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; State Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/behavioral/CommandDesignPatternTest.java" afterDir="false" />
+    <list default="true" id="70b19d34-c250-4a03-92cd-2c726443c464" name="Changes" comment="Behavioral -&gt; Command Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/dev/sumantakumar/designpatterns/structural/CompositeDesignPatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,52 +48,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractFactoryDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdapterDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BridgeDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChainOfResponsibilityTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecoratorDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FacadeDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MementoDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObserverDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentMethodDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrototypeDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProxyDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonDesignPattern.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SingletonDesignPatternTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StateDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrategyDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TemplateMethodDesignPatternTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/suman/IdeaProjects/Design Patterns&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFactoryDesignPatternTest.executor": "Run",
+    "Application.AdapterDesignPatternTest.executor": "Run",
+    "Application.BridgeDesignPatternTest.executor": "Run",
+    "Application.BuilderDesignPatternTest.executor": "Run",
+    "Application.ChainOfResponsibilityTest.executor": "Run",
+    "Application.CommandDesignPatternTest.executor": "Run",
+    "Application.CompositeDesignPatternTest.executor": "Run",
+    "Application.DecoratorDesignPatternTest.executor": "Run",
+    "Application.FacadeDesignPatternTest.executor": "Run",
+    "Application.FactoryDesignPatternTest.executor": "Run",
+    "Application.IteratorDesignPatternTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MementoDesignPatternTest.executor": "Run",
+    "Application.ObserverDesignPatternTest.executor": "Run",
+    "Application.PaymentMethodDesignPatternTest.executor": "Run",
+    "Application.PrototypeDesignPatternTest.executor": "Run",
+    "Application.ProxyDesignPatternTest.executor": "Run",
+    "Application.SingletonDesignPattern.executor": "Debug",
+    "Application.SingletonDesignPatternTest.executor": "Debug",
+    "Application.StateDesignPatternTest.executor": "Run",
+    "Application.StrategyDesignPatternTest.executor": "Run",
+    "Application.TemplateMethodDesignPatternTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/suman/IdeaProjects/Design Patterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.sumantakumar.designpatterns.structural" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommandDesignPatternTest">
+  <component name="RunManager" selected="Application.CompositeDesignPatternTest">
     <configuration name="BridgeDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.BridgeDesignPatternTest" />
       <module name="Design Patterns" />
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.MementoDesignPatternTest" />
+    <configuration name="CompositeDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.CompositeDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.structural.ProxyDesignPatternTest" />
+    <configuration name="MementoDesignPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.sumantakumar.designpatterns.behavioral.MementoDesignPatternTest" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.sumantakumar.designpatterns.structural.*" />
+          <option name="PATTERN" value="dev.sumantakumar.designpatterns.behavioral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeDesignPatternTest" />
         <item itemvalue="Application.CommandDesignPatternTest" />
         <item itemvalue="Application.StateDesignPatternTest" />
         <item itemvalue="Application.BridgeDesignPatternTest" />
         <item itemvalue="Application.MementoDesignPatternTest" />
-        <item itemvalue="Application.ProxyDesignPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,7 @@
       <workItem from="1734272539711" duration="6231000" />
       <workItem from="1734871295948" duration="2860000" />
       <workItem from="1734892273324" duration="3899000" />
-      <workItem from="1734970934557" duration="815000" />
+      <workItem from="1734970934557" duration="3544000" />
     </task>
     <task id="LOCAL-00001" summary="Creational -&gt; Singleton Design Pattern">
       <option name="closed" value="true" />
@@ -324,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734897153410</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Behavioral -&gt; Command Design Pattern">
+      <option name="closed" value="true" />
+      <created>1734972054502</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734972054502</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +356,8 @@
     <MESSAGE value="Structural -&gt; Proxy Design Pattern" />
     <MESSAGE value="Structural -&gt; Bridge Design Pattern" />
     <MESSAGE value="Behavioral -&gt; State Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; State Design Pattern" />
+    <MESSAGE value="Behavioral -&gt; Command Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioral -&gt; Command Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
